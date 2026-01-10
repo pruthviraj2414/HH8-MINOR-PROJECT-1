@@ -8,4 +8,3 @@ This work models an automated credential brute force attack performed on a test 
 
 It is meant for purely educational and authorized testing purposes only.
 
-s
