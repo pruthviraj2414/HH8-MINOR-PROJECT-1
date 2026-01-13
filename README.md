@@ -1,39 +1,42 @@
-# Brute Force Simulator
-
-## Short Description
-Attack testing.
+# Brute Force simulator
 
 ## Brief Description
-This work models an automated credential brute force attack performed on a test login system to gain insight into account lockout functions.
 
-It is meant for purely educational and authorized testing purposes only.
+Attack Testing.
 
-## Tools Used
+## Brief Description
+
+This paper models an automated attack by Credential Bruteforce on a test login web application in order to understand lock out mechanisms on user accounts.
+It is intended exclusively for educational testing by authorized personnel.
+# Tools Used
+    Python
 - Python
 - Flask
+
 - Requests
 - VS Code
 - GitHub
+## How To Do
+1. create login server for testing using Flask
+2. Now, define valid credentials and the maximum number of attempts allowed to login
 
-## How to Implement
-1. create a login server for testing using Flask
-2. Now, define valid credentials and the maximum number of login attempts that 
-3. Generate word list with several passwords.
-4. Use a Python script to iterate over the word list.
-5. Automate login requests to the test server.
+3. Produce the word list with several passwords.
+4. Use a Python script to iterate through the list of words.
+5. Automate login to the testing environment.
 6. Lock the account after multiple attempts.
 
 ## Project Structure
+First,
+
 - test_login_server.py – Authorized test login server
-- brute_force_simulator.py – Brute force attack simulation script
-- wordlist.txt – Password list
-- requirements.txt – Required Python libraries
+- brute_force_simulator.py – Brute force simulation script - wordlist.txt – password list - requirements.txt – The required Python libraries
 
-## Output
-After several unsuccessful login tries, the system locks the account and shows the following:: Account locked after multiple attempts
-
-## Tips
-You may only use this project for learning/ ethical security testing on approved testing platforms.
+ ## Output 
+ When the user fails several times when trying to log into the system, the system locks the account and displays the following:     
+ Account locked after multiple attempts 
+     
+ ## Tips
+  This project is for educational/ethical security testing purposes only and can only be used on approved testing platforms.
 
 ## Conclusion
- The Brute Force Simulator project effectively illustrates how brute force attacks function and how account lockout functionality protects against brute force attacks.
+ The Brute Force Simulator project exemplifies the process of brute force attacks and the protection mechanisms for brute force attacks offered by the account lockout feature.
